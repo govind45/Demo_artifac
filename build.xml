@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="jar">
+<project default="compile">
 <target name="clean">
 <delete dir="./build/classes"/>
 <delete dir="./build"/>
@@ -9,7 +9,6 @@
 <mkdir dir="./build/classes"/>
 <javac includeantruntime="true" srcdir="./src" destdir="./build/classes"/>
 </target>
-<target name="jar" depends="compile">
 <mkdir dir="./build/jar"/>
 <manifest>
 <attribute name="Main-Class" value="home"/>
