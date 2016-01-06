@@ -1,8 +1,6 @@
 
-public class home{
-  public static void main(String[] args){
-    
-    System.out.println("This is first one.");
-    System.out.println("This is second check!");
-  }
+public class home {
+	public int produceCube(int n){
+		return n*n*n;
+}
 }
