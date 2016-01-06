@@ -1,6 +1,6 @@
 
 public class home {
-	public int produceCube(int n){
+	public int Cube(int n){
 		return n*n*n;
 }
 }
