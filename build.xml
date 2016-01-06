@@ -9,10 +9,4 @@
 <mkdir dir="./build/classes"/>
 <javac includeantruntime="true" srcdir="./src" destdir="./build/classes"/>
 </target>
-<mkdir dir="./build/jar"/>
-<manifest>
-<attribute name="Main-Class" value="home"/>
-</manifest>
-</jar>
-</target>
 </project>
